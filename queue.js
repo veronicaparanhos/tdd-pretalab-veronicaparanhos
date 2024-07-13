@@ -13,8 +13,7 @@ class Queue {
   }
 
   peek() {
-    const primeiroItem = this.elements[0];
-    return primeiroItem;
+    return this.elements[0];
   }
 
   dequeue() {
